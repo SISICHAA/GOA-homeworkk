@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+  display: flex;
+}
+
+.box {
+  height: 100px;
+  background: lightcoral;
+  border: 1px solid black;
+}
+
+
+.b1 {
+  flex-basis: 100px;
+}
+
+.b2 {
+  flex-basis: 200px;
+}
+
+.b3 {
+  flex-basis: 300px;
+}
+
+.b4 {
+  flex-basis: 150px;
+}

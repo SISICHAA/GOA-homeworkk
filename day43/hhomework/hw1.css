@@ -1,0 +1,61 @@
+table {
+    width: 400px;
+    border-collapse: collapse;
+    margin: 30px auto;
+    font-family: sans-serif;
+}
+
+th {
+    background: #159a7a;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    background: #eee;
+}
+
+.green {
+    color: #159a7a;
+    font-weight: bold;
+}
+
+
+.list1 {
+    list-style-type: disc;   
+}
+
+.list2 {
+    list-style-type: circle; 
+}
+
+.list3 {
+    list-style-type: none;   
+}
+
+.list4 {
+    list-style-type: square; 
+}
+
+
+
+
+.numbers {
+    list-style-type: decimal;
+}
+
+.letters {
+    list-style-type: georgian;
+}
+
+.roman {
+    list-style-type: upper-roman;
+}
+
+
+
+
+.inside {
+    list-style-position: inside; 
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.motha {
+    display: flex;
+
+
+}
+
+.sedans {
+
+    width: 300px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 45px;
+}
+
+.suvs {
+    
+    width: 300px;
+    background-color: hsl(184, 100%, 22%);
+    padding: 45px;
+
+}
+
+.luxury {
+    
+    width: 300px;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 45px;
+
+}
+
+.child1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+}
+
+h1 {
+    font-family: "Big Shoulders", sans-serif;
+    color: hsl(0, 0%, 95%);
+
+
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.7;
+
+}
+button {
+    margin-top: 50px;
+    width: 70%;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    color: hsl(31, 77%, 52%);
+    
+}
+button:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.child2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+}
+
+#dd {
+    width: 225px;
+}
+
+#butt {
+    margin-top: 50px;
+    width: 70%;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    color: hsl(184, 100%, 22%);
+
+}
+
+#butt:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+
+
+.child3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+}
+#but {
+    margin-top: 50px;
+    width: 70%;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    color: hsl(179, 100%, 13%);
+
+}
+#but:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+
+
+#ss {
+    width: 230px;
+}

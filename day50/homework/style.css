@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mother {
+    height: 340px;
+    width: 300px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ch {
+    height: 50px;
+    width: 30px;
+    border: 2px solid white;
+}
+
+.mm {
+    height: 340px;
+    width: 300px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.m {
+    height: 340px;
+    width: 300px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* chven viswavlet x gerdzze justifys ramdenime mnishvneloba space between space around da space evenly aqedan space evenly shvil da mshobel elements shoris aketebs  ertidaigive dashorebas space around ertida  igivedashorebasshvilebsi xolo mat naxevars mshobeltan xolo spacve between shvil elementebshi aketeben erti da igive  mandzzils xolo gare shvilebi etyupebian mshobel divebs*/
+
+
+/* gap aris dashoreba da gvexmareba gavalamazot  website  da divebs shoris dashoreba chhvenit ganvsazzgrot */
+
+
+.deda {
+    height: 1000px;
+    border: 2px solid green;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.shvili {
+    height: 200px; 
+    width: 100px;
+
+}
+
+ul {
+    border: 2px solid white;   
+    list-style: none;          
+    display: flex;
+    gap: 50px;                 
+    padding: 10px;
+}
+
+li {
+    font-size: 18px;
+ }
+
+
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    border: 2px solid black;
+}
+
+.box {
+    width: 120px;
+    height: 80px;
+    background-color: lightblue;
+}
+
+
+.c {
+    width: 300px;
+    display: flex;
+    flex-wrap: nowrap; 
+    border: 2px solid black;
+}
+
+.b {
+    width: 100px;
+    height: 80px;
+    background-color: lightgreen;
+    
+}
+

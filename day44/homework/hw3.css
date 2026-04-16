@@ -1,0 +1,23 @@
+body{
+  background:#87b4cc;
+  font-family:Arial;
+}
+
+.box{
+  margin:40px;
+  padding: 20px;
+  height: 300px;
+  width: 100px;
+}
+
+label{
+  color:white;
+}
+
+input{
+  width:280px;
+  padding:10px;
+  border-radius:20px;
+  border:none;
+  background:#e6e6e6;
+}

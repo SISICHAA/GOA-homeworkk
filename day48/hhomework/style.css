@@ -1,0 +1,122 @@
+
+.container {
+    border: 2px solid black;
+    margin: 20px 0;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background: lightblue;
+    border: 1px solid black;
+}
+
+/* 1 */
+.c1 {
+    display: flex;
+}
+
+/* 2 */
+.c2 {
+    display: flex;
+    flex-direction: row; 
+    /* row = horizontalurad */
+
+    flex-direction: column; 
+    /* column = vertikalurad */
+}
+
+/* 3 */
+.c3 {
+    display: flex;
+    width: 500px;
+
+    justify-content: space-between; 
+    /* cvlis horizontalur ganlagebas */
+}
+
+/* 4 */
+.c4 {
+    display: flex;
+    width: 500px;
+    height: 200px;
+
+    align-items: center; 
+    /* gadaaqvs centrshi */
+}
+
+/* 5 */
+.c5 {
+    display: flex;
+    width: 500px;
+
+    justify-content: flex-end;
+}
+
+/* 6 */
+.c6 {
+    display: flex;
+    width: 500px;
+    height: 200px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+/* 7 */
+.c7 {
+    display: flex;
+    width: 500px;
+    height: 200px;
+
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* 8 */
+.c8 {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+/* 9 */
+.c9 {
+    display: flex;
+    flex-direction: column-reverse;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.c9 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 10 */
+.c10 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* 11 */
+.c11 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* 12 */
+.c12 {
+    display: flex;
+    width: 500px;
+    height: 300px;
+
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}

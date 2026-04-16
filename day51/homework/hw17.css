@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+  display: flex;
+}
+
+.first {
+  flex: 0 0 200px;
+  background: lightblue;
+}
+
+
+.second {
+  flex: 1;
+  background: lightgreen;
+}
+
+
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  flex: 0 0 100px;
+  background: lightcoral;
+}
+
+
+.menu {
+  flex: 1;
+  background: lightgray;
+}
+
+
+.profile {
+  flex: 0 0 100px;
+  background: lightseagreen;
+}

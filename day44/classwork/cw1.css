@@ -1,0 +1,23 @@
+input[type="text"]{
+    background-color: red;
+    color: blue;
+    border-radius: 10px;
+
+
+}
+
+input[type="email"]{
+    background-color: orange;
+    color: red;
+    outline: none;
+    
+}
+
+input[type="password"]{
+    background-color: purple;
+    border: 2px solid red;
+    color: green;
+    outline: none;
+    border-radius: 5px;
+    
+}

@@ -1,0 +1,162 @@
+/* 1 */
+.btn {
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: red;
+}
+
+/* 2  */
+.text {
+    font-size: 16px;
+}
+
+.text:hover {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* 3 */
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin-top: 20px;
+}
+
+.box:hover {
+    border: 3px solid green;
+    background-color: blue;
+}
+
+/* 4 */
+.cars {
+    margin-top: 20px;
+}
+
+.cars li {
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.cars li:hover {
+    background-color: lightgray;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* 5 */
+.img-box {
+    width: 100px;
+    height: 100px;
+    transition: 0.3s;
+}
+
+.img-box:hover {
+    width: 200px;
+    height: 200px;
+}
+
+/* 6 */
+.btn-1 {
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+}
+
+.btn:active {
+    background-color: green;
+    color: yellow;
+}
+
+/* 7 */
+.btn-active2 {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.btn-active2:active {
+    border: 5px solid red;
+}
+
+/* 8 */
+.card {
+    width: 150px;
+    height: 100px;
+    background-color: lightgray;
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.card:hover {
+    background-color: lightblue;
+}
+
+.card:active {
+    border: 4px solid green;
+}
+
+/* 9*/
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+/* 10 */
+.link1:link {
+    border: 2px solid black;
+    background-color: lightgray;
+    padding: 5px;
+}
+
+/* 11 */
+.link2:link {
+    background-color: lightblue;
+    color: purple;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+}
+
+/* 12 */
+.links12:link {
+    color: green;
+    font-weight: bold;
+    display: block;
+}
+
+/* 13 */
+a:visited {
+    color: purple;
+}
+
+/* 14 */
+.link14:visited {
+    background-color: lightgray;
+    color: green;
+}
+
+/* 15 */
+.link15:link {
+    color: green;
+}
+
+.link15:visited {
+    color: purple;
+}
+
+.link15:hover {
+    color: red;
+}
+
+.link15:active {
+    color: black;
+}
