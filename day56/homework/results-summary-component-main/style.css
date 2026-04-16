@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(236, 242, 255);
+    height: 100vh;
+    font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.parent {
+    background-color: white;
+    width: 650px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+.parent1 {
+    width: 50%;
+    background-color: hsla(256, 72%, 46%, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 40px;
+
+    
+}
+
+.p1 {
+    
+    color: hsl(241, 100%, 89%);
+    font-size: 20px;
+
+}
+
+.inside {
+    background-color: rgba(63, 31, 138, 0.808);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.inside p {
+    color: hsl(241, 100%, 89%);
+    font-size: 14px;
+}
+.inside h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+.parent1 h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+.desc {
+    color: hsl(241, 100%, 89%);
+    
+    line-height: 1.5;
+    font-size: 15px;
+    
+}
+/* ------------------------------------------------------ */
+
+.parent2 {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    width: 50%;
+    padding: 30px;
+}
+
+.first {
+    display: flex;
+    justify-content: start;
+    background-color: rgb(245, 231, 231);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.opp {
+    color: red;
+
+}
+
+.first img {
+    padding-right: 10px;
+}
+
+.pppp {
+    padding-left: 80px;
+}
+
+.para {
+    font-weight: 600;
+}
+
+
+.second { 
+    display: flex;
+    justify-content: start;
+    background-color: rgb(251, 255, 216);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.kk {
+    color: orange;
+}
+
+
+.second img {
+    padding-right: 10px;
+}
+
+.kkk {
+    padding-left: 82px;
+}
+
+
+/*  */
+
+
+
+.third { 
+    display: flex;
+    justify-content: start;
+    background-color: rgb(225, 255, 221);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.ll {
+    color: green;
+}
+
+
+.third img {
+    padding-right: 10px;
+}
+
+.lll {
+    padding-left: 95px;
+}
+
+
+/*  */
+
+
+
+
+.fourth { 
+    display: flex;
+    justify-content: start;
+    background-color: rgb(223, 229, 255);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.iii {
+    color: orange;
+}
+
+
+.fourth img {
+    padding-right: 10px;
+}
+
+.iiii {
+    padding-left: 100px;
+}
+
+button {
+    height: 50px;
+    width: 250px;
+    background-color: rgb(20, 19, 56);
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+
+    background-color: hsla(256, 72%, 46%, 1);
+}
