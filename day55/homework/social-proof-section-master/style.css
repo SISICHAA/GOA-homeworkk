@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  background: #f7f2f7;
+  
+  Font-size: 20px;
+}
+.bottom_pattern{ 
+   position:absolute ;
+   bottom: 0px; 
+   right:0px;
+    width: 60% 
+}
+.top_pattern{
+    position:absolute ;
+    top: 0px; 
+    left:0px;
+    width: 40%
+
+}
+
+.container {
+  width: 1500px;
+  margin: 60px auto;
+  padding: 30px 100px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 34%;
+}
+
+.left h1 {
+  color: #502050;
+  font-size: 70px;
+  line-height: 1;
+}
+
+.left p {
+  color: #937b92;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.r {
+  width: 45%;
+}
+
+.ra {
+  position: relative;
+  top: 70px;
+  background: #f0e6f0;
+  padding: 5px 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 15px;
+  color: #502050;
+  font-weight: 700;
+}
+
+
+.r1 { 
+    width: 73%;
+
+}
+.r2 {
+    margin-left: 40px;
+
+     width: 75%;
+}
+
+.r3 { 
+    margin-left: 80px;
+}
+
+
+
+.cards {
+  display: flex;
+  gap: 30px;
+  margin-top: 80px;
+}
+
+.card {
+  background: #502050;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+}
+.c1 {
+     height: 70%; 
+    }
+.c2 { margin-top: 30px; 
+    height: 71%; 
+}
+.c3 { 
+    margin-top: 60px; 
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  line-height: 0.1;
+  padding: 20px;
+}
+
+.user img {
+  width: 55px;
+  border-radius: 50%;
+}
+
+.verified1 {
+  color: #ee68a4;
+  position: absolute;
+  top: 580px;
+}
+.verified2 {
+  color: #ee68a4;
+  position: absolute;
+  top: 610px;
+}
+.verified3 {
+  color: #ee68a4;
+  position: absolute;
+  top: 640px;
+}
+.review {
+  font-size: 22px;
+  margin-top: 20px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  padding: 13px;
+}
