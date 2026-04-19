@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-family: "Epilogue", sans-serif;
+
+
+
+}
+
+#body {
+    width: 1300px;
+    height: 820px;
+    background-color: #ffff;
+
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px;
+}
+
+#headerdiv {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+ol {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+    opacity: 90%;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(98, 94, 94);
+
+}
+
+#buttondiv{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    
+
+}
+
+h2 {
+    font-size: 35px;
+}
+.btn{
+    opacity: 90%;
+    font-weight: 600;
+    color: rgb(98, 94, 94);
+}
+#login {
+    border: none;
+    background-color: white;
+    font-size: 13px;
+}
+#register {
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 13px;
+}
+#mainimg {
+    width: 450px;
+
+}
+
+#maindiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+#textdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: start;
+    width: 50%;
+
+}
+
+#imgdiv {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    align-items: center;
+}
