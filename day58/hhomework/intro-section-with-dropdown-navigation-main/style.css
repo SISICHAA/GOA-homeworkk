@@ -81,7 +81,8 @@ h2 {
     font-size: 13px;
 }
 #mainimg {
-    width: 450px;
+    width: 400px;
+    padding-left: 110px ;
 
 }
 
@@ -89,6 +90,7 @@ h2 {
     width: 100%;
     display: flex;
     align-items: center;
+    flex-direction: column;
     gap: 50px;
 
 }
@@ -107,4 +109,17 @@ h2 {
     align-items: center;
     gap: 30px;
     align-items: center;
+    
+}
+
+#mmmaindiv {
+    display: flex;
+    
+    padding-top: 50px;
+    
+}
+
+#maindiv h1{
+    font-size: 60px;
+
 }
