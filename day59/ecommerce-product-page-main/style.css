@@ -20,8 +20,10 @@ body {
 
     
 }
+
 #mother {
     background-color: white;
+    height: 600px;
     
 }
 #yellow {
@@ -31,6 +33,7 @@ body {
     gap: 100px;
     padding-left: 60px;
     padding-right: 60px;
+    padding-top: 20px;
 
 }
 #iimg {
@@ -50,8 +53,11 @@ body {
 }
 #text h3 {
     font-size: 23px;
+    
 }
-
+#grey p {
+    width: 400px;
+}
 #ic {
     width: 20px;
     height: 20px;
