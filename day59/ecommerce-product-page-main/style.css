@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Kumbh Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgb(105, 105, 105);
+
+    
+}
+#mother {
+    background-color: white;
+    
+}
+#yellow {
+    display: flex;
+    justify-content: center;
+    
+    gap: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+#iimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 30px;
+}
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+    
+}
+#text h3 {
+    font-size: 23px;
+}
+
+#ic {
+    width: 20px;
+    height: 20px;
+}
+#av {
+    height: 40px;
+    width: 40px;
+    
+}
+
+.redp {
+    font-size: 13px;
+    color: gray;
+}
+
+#kolaji {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+
+.kolaji {
+    height: 50px;
+    border-radius: 5px;
+
+}
+#brown {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 120px;
+}
+
+#bigphotto {
+    height: 250px;
+    border-radius: 10px;
+}
+#rightside {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    
+}
+#grey {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+#dollars {
+    display: flex;
+    gap: 20px;
+
+}
