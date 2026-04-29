@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    height: 200vh;
+}
+#hh {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    right: 0;
+    top: 50%;
+}
+
+#dd {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: sticky;
+    top: 40px;
+    bottom: 65px;
+}
