@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 300vh;
+}
+h1 {
+    text-align: center;
+}
+#hhhh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+img {
+    position: sticky;
+    top: 0px;
+}
